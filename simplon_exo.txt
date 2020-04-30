@@ -1,0 +1,17 @@
+1- Create POST Form with Name, email, password, birthday, title,date and content.
+2-Add div's and bootstrap classes to make it look good, center the form
+3- Create pr.php, add it to Form action and include it Form index.php
+4- Create the MySQL database "crud" and table user with id,email password, birthday
+5- Create table Category with id, label(name).
+6- Create table topic with id, title.
+7- Create table post with id, post_date, content.
+8- Connect to the database and insert the email, password, birthday records into the "user" table
+if the Save button has been pressed
+9-Connect to the database, select th existing records and create the loop to display them 
+above the form in HTML tabl. Add Boostrap4 classes to style and center the table.
+10- Add Edit and Delete link buttons, pass the id of the record as GET variable in the URL in 
+both links.
+11- Create session messages and message types for save an Delete buttons, redirect the user back
+to the index.phpfor both
+12- Display save and Delete messages with $_SESSION at the top of the page using Boostrap 4
+classes appropriate for each message type.
